@@ -1,0 +1,40 @@
+body{
+	background-color: gray;
+}
+.toolbox{
+	height:100vh;
+	position: absolute;
+	width:150px;
+}
+
+.toolbox.left{
+	left:27%;
+	top:10%;
+}
+.toolbox.right{
+	right:17%;
+	top:10%;
+}
+.toolbox .group .item{
+    width:24px;
+    height: 24px;
+    padding:10px;
+    cursor: pointer;
+}
+.toolbox .group .item img{
+    width: 100%;
+    height: 100%;
+    filter:invert(1);
+}
+.toolbox .group.colors .item .swatch{
+    width:100%;
+    height: 100%;
+    border:2px white solid;
+}
+#canvas{
+	position: absolute;
+	top:10%;
+	left:30%;
+	background-color: white;
+
+}
